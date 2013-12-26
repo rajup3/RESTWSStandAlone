@@ -3,16 +3,16 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/antlr-2.7.7.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/antlr-3.2.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/antlr-runtime-3.2.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/aopalliance-1.0.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/asm-3.3.1.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/asm-3.3.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/bcprov-jdk15-1.45.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/commons-collections-3.2.1.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/commons-lang-2.6.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/cxf-2.5.5.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/cxf-2.3.11.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/cxf-manifest.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/cxf-services-sts-core-2.5.5.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/cxf-services-wsn-api-2.5.5.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/cxf-services-wsn-core-2.5.5.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/cxf-xjc-boolean-2.4.0.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/cxf-xjc-bug671-2.4.0.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/cxf-xjc-dv-2.4.0.jar"/>
@@ -21,69 +21,54 @@
 	<classpathentry kind="var" path="CXF_HOME/lib/geronimo-activation_1.1_spec-1.1.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/geronimo-annotation_1.0_spec-1.1.1.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/geronimo-javamail_1.4_spec-1.7.1.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/geronimo-jaxws_2.2_spec-1.1.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/geronimo-jaxws_2.2_spec-1.0.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/geronimo-jms_1.1_spec-1.1.1.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/geronimo-servlet_2.5_spec-1.1.2.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/geronimo-servlet_3.0_spec-1.0.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/geronimo-stax-api_1.0_spec-1.0.1.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/geronimo-ws-metadata_2.0_spec-1.1.3.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/isorelax-20030108.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/jaxb-api-2.2.3.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/jaxb-impl-2.2.4-1.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/jaxb-xjc-2.2.4-1.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/jettison-1.3.2.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/jetty-continuation-7.5.4.v20111024.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/jetty-http-7.5.4.v20111024.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/jetty-io-7.5.4.v20111024.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/jetty-security-7.5.4.v20111024.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/jetty-server-7.5.4.v20111024.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/jetty-util-7.5.4.v20111024.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/joda-time-1.6.2.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/jettison-1.3.1.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/jetty-continuation-7.4.5.v20110725.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/jetty-http-7.4.5.v20110725.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/jetty-io-7.4.5.v20110725.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/jetty-security-7.4.5.v20110725.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/jetty-server-7.4.5.v20110725.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/jetty-util-7.4.5.v20110725.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/jra-1.0-alpha-4.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/js-1.7R2.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/jsr311-api-1.1.1.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/mimepull-1.4.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/msv-core-2011.1.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/neethi-3.0.2.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/opensaml-2.5.1-1.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/openws-1.4.2-1.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/msv-core-2010.2.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/neethi-2.0.5.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/oro-2.0.8.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/relaxngDatatype-20020414.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/saaj-api-1.3.4.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/saaj-impl-1.3.12.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/saaj-api-1.3.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/saaj-impl-1.3.2.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/serializer-2.7.1.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/slf4j-api-1.6.2.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/slf4j-jdk14-1.6.2.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/spring-aop-3.0.6.RELEASE.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/spring-asm-3.0.6.RELEASE.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/spring-beans-3.0.6.RELEASE.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/spring-context-3.0.6.RELEASE.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/spring-core-3.0.6.RELEASE.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/spring-expression-3.0.6.RELEASE.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/spring-jms-3.0.6.RELEASE.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/spring-tx-3.0.6.RELEASE.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/spring-web-3.0.6.RELEASE.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/slf4j-jdk14-1.6.1.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/spring-aop-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/spring-asm-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/spring-beans-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/spring-context-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/spring-core-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/spring-expression-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/spring-jms-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/spring-tx-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/spring-web-3.0.5.RELEASE.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/stax2-api-3.1.1.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/velocity-1.7.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/woodstox-core-asl-4.1.4.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/stringtemplate-3.2.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/velocity-1.6.4.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/woodstox-core-asl-4.1.1.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/wsdl4j-1.6.2.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/wss4j-1.6.7.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/wss4j-1.5.12.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/xalan-2.7.1.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/xml-resolver-1.2.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/xmlbeans-2.5.0.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/xmlschema-core-2.0.3.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/xmlsec-1.5.2.jar"/>
-	<classpathentry kind="var" path="CXF_HOME/lib/xmltooling-1.3.2-1.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/xmlbeans-2.4.0.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/XmlSchema-1.4.7.jar"/>
+	<classpathentry kind="var" path="CXF_HOME/lib/xmlsec-1.4.5.jar"/>
 	<classpathentry kind="var" path="CXF_HOME/lib/xsdlib-2010.1.jar"/>
-	<classpathentry kind="var" path="JERSEY_HOME/lib/asm-3.1.jar"/>
-	<classpathentry kind="var" path="JERSEY_HOME/lib/jackson-core-asl-1.9.2.jar"/>
-	<classpathentry kind="var" path="JERSEY_HOME/lib/jackson-jaxrs-1.9.2.jar"/>
-	<classpathentry kind="var" path="JERSEY_HOME/lib/jackson-mapper-asl-1.9.2.jar"/>
-	<classpathentry kind="var" path="JERSEY_HOME/lib/jackson-xc-1.9.2.jar"/>
-	<classpathentry kind="var" path="JERSEY_HOME/lib/jersey-client-1.18.jar"/>
-	<classpathentry kind="var" path="JERSEY_HOME/lib/jersey-core-1.18.jar"/>
-	<classpathentry kind="var" path="JERSEY_HOME/lib/jersey-json-1.18.jar"/>
-	<classpathentry kind="var" path="JERSEY_HOME/lib/jersey-server-1.18.jar"/>
-	<classpathentry kind="var" path="JERSEY_HOME/lib/jersey-servlet-1.18.jar"/>
-	<classpathentry kind="var" path="JERSEY_HOME/lib/jettison-1.1.jar"/>
-	<classpathentry kind="var" path="JERSEY_HOME/lib/jsr311-api-1.1.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

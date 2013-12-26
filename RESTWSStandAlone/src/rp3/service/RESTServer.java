@@ -14,7 +14,7 @@ public class RESTServer {
 		JAXRSServerFactoryBean sf = new JAXRSServerFactoryBean();
         sf.setResourceClasses(CalcREST.class);
         sf.setResourceProvider(CalcREST.class, new SingletonResourceProvider(new CalcREST()));
-        sf.setAddress("http://localhost:9999/calcrest/");
+        sf.setAddress("http://localhost:8989/calcrest/");
         Server server = sf.create();
 
         System.out.println(" REST Server is ready! ");
